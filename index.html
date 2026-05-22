@@ -1558,6 +1558,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       `Podem me ajudar com disponibilidade e informações?`
     );
 
+    if (typeof fbq === 'function') {
+      fbq('track', 'Lead');
+    }
+
     window.open('https://wa.me/556298713062?text=' + msg, '_blank');
   }
 </script>
