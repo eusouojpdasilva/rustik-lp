@@ -415,6 +415,30 @@
       transition: background 0.3s;
     }
     .btn-airbnb:hover { background: var(--terracota-dark); }
+    .booking-cta {
+      margin-top: 40px;
+      padding: 32px 24px;
+      background: rgba(212,169,106,0.08);
+      border-radius: 14px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 16px;
+      text-align: center;
+    }
+    .booking-cta p {
+      font-size: 14px;
+      font-weight: 300;
+      color: var(--text-mid);
+      max-width: 660px;
+      line-height: 1.7;
+      margin: 0;
+    }
+    .booking-cta .btn-airbnb {
+      background: var(--terracota);
+      padding: 14px 32px;
+    }
+    .booking-cta .btn-airbnb:hover { background: var(--terracota-dark); }
     .btn-whats {
       display: inline-block;
       font-size: 11px;
@@ -1111,6 +1135,10 @@
     </div>
 
   </div>
+    <div class="booking-cta animate">
+      <p>Se preferir, pode fazer reserva pelo Booking:</p>
+      <a href="https://www.booking.com/hotel/br/rustik.pt-br.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaCCIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AprYwdAGwAIB0gIkMDBiMDkwZjYtYmQ5MS00NTVmLWI2NzEtN2IzZmJiZjQyOTc52AIB4AIB&sid=ffa50bcca435e93ff6e4a238b3c99efc&checkin=2027-01-05&checkout=2027-02-05&dest_id=10132027&dest_type=hotel&dist=0&group_adults=2&group_children=0&hapos=1&hpos=1&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&soh=1&sr_order=popularity&srepoch=1779461169&srpvid=e9d667d7335f01c4&type=total&ucfs=1&#no_availability_msg" target="_blank" rel="noopener" class="btn-airbnb">Reservar no Booking</a>
+    </div>
 </section>
 
 <!-- PARA QUEM -->
@@ -1369,7 +1397,7 @@
     </div>
     <div class="faq-item">
       <button class="faq-question">Qual é a capacidade de cada bangalô?<span class="faq-icon">+</span></button>
-      <div class="faq-answer"><p>Todos os bangalôs são para até 2 pessoas. Não atendemos grupos ou crianças.</p></div>
+      <div class="faq-answer"><p>Os bangalôs Água e Terra acomodam até 3 pessoas. Os demais bangalôs são para até 2 pessoas.</p></div>
     </div>
     <div class="faq-item">
       <button class="faq-question">Como funciona o check-in?<span class="faq-icon">+</span></button>
